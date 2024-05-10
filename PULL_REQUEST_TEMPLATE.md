@@ -1,5 +1,10 @@
 # PR Code Review Checklist
 
+## QA Merge
+* During the QA freeze period, which is the time between the Dev Complete date and the Create Release Branch date, do not merge any code into the QA branch of any project without getting explicit approval from Andrey Teplyakov.
+* The ONLY person who can merge develop branch into QA is Steve Buonincontri
+* QA Merge Status page: https://shakeshack.atlassian.net/wiki/spaces/DPM/pages/3145105420/QA+Freeze+status
+
 ## API
 * All the API request/response **headers** must be lowercase.
     * It should be checked in **both** lambda’s code and resource’s definition
