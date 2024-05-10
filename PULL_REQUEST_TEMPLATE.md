@@ -1,7 +1,7 @@
 # PR Code Review Checklist
 
-## QA Merge
-* During the QA freeze period, which is the time between the Dev Complete date and the Create Release Branch date, do not merge any code into the QA branch of any project without getting explicit approval from Andrey Teplyakov.
+## Merge into QA
+* During the QA freeze period DO NOT MERGE any code into the QA branch of any project without getting explicit approval from Andrey Teplyakov.
 * The ONLY person who can merge develop branch into QA is Steve Buonincontri
 * QA Merge Status page: https://shakeshack.atlassian.net/wiki/spaces/DPM/pages/3145105420/QA+Freeze+status
 
