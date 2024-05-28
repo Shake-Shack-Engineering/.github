@@ -13,6 +13,9 @@
 * If any API Gateway resource is created/updated in the PR, **Swagger** must be updated accordingly (openapi-documentation
   project).
 
+## Secrets/Credentials
+* No tokens or credentials should be stored in the code.
+
 ## Errors handling
 * Each line on the code must be covered by try/catch.
     * All errors must be logged using a **_console.error(error)_**
